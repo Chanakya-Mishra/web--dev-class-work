@@ -31,3 +31,34 @@
     width: 100px;
     font-size: 35px;
 }
+
+.container2{
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+}
+
+.container2 div{
+    background-color: rgb(20, 73, 73);
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.c1{
+    height: 80px;
+}
+
+.c2{
+    height: 60px;
+}
+
+.c3{
+    height: 50px;
+}
+
+.c4{
+    height: 90px;
+}

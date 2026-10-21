@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+}
+.container{
+    width: 100%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    background-color: grey;
+    height: 50px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 320px;
+}
