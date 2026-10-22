@@ -32,4 +32,17 @@ a{
     border-radius: 10px;
     width: 400px;
     height: 320px;
+    box-shadow: 4px 4px 4px grey;
+
+}
+
+
+.card2{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 320px;
+    box-shadow: 4px 4px 4px grey;
+
 }
