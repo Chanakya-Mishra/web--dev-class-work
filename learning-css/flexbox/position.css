@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     
     gap: 10px;
@@ -9,18 +13,18 @@ body{
     border: 2px solid black;
     border-radius: 5px;
     text-align: center;
+    background-color: blue;
 }
 .con1{
-    border: 2px solid black;
     width: 200px;
     height: 200px;
-    margin-left: 59%;
+    margin-left: 60%;
+    background-color: cadetblue;
     
 }
 .con2{
-    border: 2px solid black;
     width: 200px;
     height: 200px;
-    margin-bottom: 23%;
     border-radius: 5px;
+    background-color: cadetblue;
 }
