@@ -1,0 +1,25 @@
+body{
+    
+    gap: 10px;
+}
+
+.con{
+    width: 500px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.con1{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin-left: 79%;
+    border-radius: 5px;
+}
+.con2{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin-top: 190px;
+    border-radius: 5px;
+}
