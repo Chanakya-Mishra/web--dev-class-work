@@ -7,21 +7,36 @@
 
     <style>
         div{
-            width: 400px;
-            height: 400px;
+            width: 100px;
+            height: 100px;
             background-color: cadetblue;
-            transition: width 2s, height 2s, background-color 2s;
+            transition: width 1s, height 2s, background-color 2s , transform 2s;
             border-radius: 10px;
         }
 
+        con{
+            transition-property: linear;
+        }
+        con1{
+            transition-property: ease;
+        }
+        con2{
+            transition-property: ease-in;
+        }
+
         div:hover{
-            width: 800px;
+            width: 400px;
             height: 200px;
             background-color: aqua;
+            transform: rotate(180deg);
         }
     </style>
 </head>
 <body>
-    <div></div>
+    <div class="con">linear</div>
+    <br>
+    <div class="con1">ease</div>
+    <br>
+    <div class="con2">ease-in</div>
 </body>
 </html>
